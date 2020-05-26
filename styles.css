@@ -1,0 +1,434 @@
+﻿.container, .mp-level{
+    background: none !important;
+}
+.menu-trigger:before{
+    background: #000;
+    box-shadow: 0 6px #ffffff, 0 12px #000, 0 18px #fff, 0 24px #000;
+}
+body, h1, div, nav, ul, li,p,h2
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header{
+    display: flex;
+    vertical-align: middle;
+    height: 50px;
+    margin: auto;
+    box-shadow: 0px 0 5px 0 #000000;
+}
+.logo{
+    width: auto;
+    margin-left: auto;
+    height: 50px;
+    text-align: right;
+    display: table;
+    margin-right: 10px;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.logo h1 {
+    
+    font-family: cooper;
+}
+.menu-trigger{
+    display: none;
+}
+nav{
+    width: 60%;
+}
+nav ul{
+    display: table;
+    width: 100%;
+    height: 50px;
+}
+nav a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 20%;
+}
+nav li{
+    list-style-type: none;
+    
+    font-family: Segoe Script;
+}
+nav a:hover{
+    border-bottom: 3px solid #99d6fd;
+    
+}
+.phonenumber{
+    display: table;
+    height: 50px;
+    background-color: #99d6fd;
+    margin-right: auto;
+}
+.phonenumber p{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Tw Cen MT Condensed;
+    font-size:25px;
+    padding: 0px 10px;
+}
+.hero{
+    position: relative;
+    
+    background-image: linear-gradient(#6aace9, white);
+
+    width: 100%;
+}
+.innerhero{
+    display: table;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+.imagepic, .herotext{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.hero img{
+    margin: auto;
+}
+.herotext h1{
+    font-family: Tw Cen MT Condensed;
+    font-size: 60px;
+}
+.herotext p{
+    font-family: Tw Cen MT Condensed;
+    font-size: 40px;
+}
+
+  .hidden{
+    opacity: 0;
+}
+.show{
+    opacity: 100;
+  transition: opacity 0.5s ease-out;
+}
+
+section h1 {
+    font-family: Tw Cen MT Condensed;
+    font-weight: 700;
+    color: #356a9c;
+    font-size: 48px;
+}
+.sectionodd{
+    background-color: #f7f4f4;
+}
+.sectionodd .innersection{
+    width: 80%;
+    margin: auto; 
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+#page-skill .innersection{
+    padding-top:0;
+}
+.sectioneven{
+    background-color: #f9e9d1;
+}
+.sectioneven .innersection{
+    width: 80%;
+    margin: auto; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+section p{
+    font-family: Tw Cen MT Condensed;
+    font-size: 25px;
+}
+#messagesection{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.message{
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+.button {
+    text-decoration: none;
+    color: #9c6f25;
+    background-color: white;
+    padding: 1% 3%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    font-family: Tw Cen MT;
+    font-size: 30px;
+    margin: auto 20px;
+    display: inline-block;
+}
+a.button:hover {
+    transition: all .3s;
+    transform: scale(1.1) !important;
+}
+footer{
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+    width: 80%;
+    margin: auto; 
+    padding-top: 15px;
+    height: 50px;
+}
+
+footer p{
+    float: left;
+    font-family: Tw Cen MT;
+    font-size: 16px;
+}
+#email{
+    float: right;
+}
+#email a{
+    text-decoration: none;
+    color: black;
+}
+#email a:hover{
+    color: #9c6f25;
+}
+.outerskills{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    width: 66%;
+    margin-top: 3%;
+    
+}
+.skills{
+    border-radius: 50%;
+    display: table;
+    background-color: #ffffff;
+    width: 169px;
+    height: 169px;
+    margin-bottom: 10px;
+    padding: 2%;
+}
+.skills p{
+    text-align: center;
+    font-family: Tw Cen MT;
+    vertical-align: middle;
+    display: table-cell;
+}
+.flex{
+    display: flex; 
+    flex-wrap: wrap;  
+    margin-top: 3%;
+}
+.right{
+    margin: auto;
+    width: 60%;
+}
+h2{
+    font-family: Tw Cen MT Condensed;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.right ul {
+    list-style: none;
+    padding-left: 0;
+  }
+.right li {
+    position: relative;
+    padding-left: 1.5em;
+    font-family: Tw Cen MT;
+    font-size: 25px;  
+  }
+.right li:before {
+    content: '';  /* placeholder for the SVG */
+    position: absolute;
+    left: 0;  /* place the SVG at the start of the padding */
+    width: 1em;
+    height: 1em;
+    font-family: 'Font Awesome 5 Free';
+    content:"\f058";
+  }
+
+  .viewbtn {
+    color: #9c6f25 !important;
+    background-color: white !important;
+    border-radius: 10px;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    margin: 2px 20px;
+    padding: 10px;
+    display: inline-block;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+.viewbtn:hover {
+    transition: all .3s;
+    transform: scale(1.1) !important;
+}
+.viewbtnpara{
+    margin-top: 10px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+#notification {
+    display:none;
+}
+
+#notification.show {
+    display:block;
+}
+@media screen and (max-width: 1080px){
+    .phonenumber{
+        margin: 0;
+        width: auto;
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+        margin: auto;
+    }
+    .right{
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .flex{
+        margin-top: 6%;
+        
+    }
+    .shadow{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+    }
+    .viewbtn{
+        margin: 2px auto;
+        margin-right: 20px;
+    }
+        
+}
+@media screen and (max-width: 1000px){
+    
+    .flex{
+        justify-content: center;
+    }
+    .right li{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 860px){
+    .innerhero{
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: auto;
+    }
+    .imagepic, .herotext{
+        display: block;
+    }
+    .hero img{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 700px){
+    .herotext h1{
+        font-size: 6.143vw;
+    }
+    .herotext p{
+        font-size: 4.714vw;
+    }
+    section h1{
+        font-size: 7.857vw;
+    }
+    h2{
+        font-size: 5.714vw;
+    }
+    .milestoneh2 {
+        font-weight: bold;
+    }
+    .cca h3{
+        font-size: 4.286vw;
+    }
+    section p{
+        font-size: 4vw;
+    }
+    .logo{
+        width: 100%;
+        background-color: #99d6fd;
+    }
+    .innerhero{
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: auto;
+    }
+    .imagepic, .herotext{
+        display: block;
+    }
+    .hero img{
+        width: 30%;
+    }
+    .herotext h1{
+        font-size: 50px
+    }
+    .header{
+        display: none;
+    }
+    .menu-trigger{
+        display: block;
+        height: 50px;
+    }
+    .triggerp{
+        margin-left: 20px;
+        margin-top: 7px;
+    }
+    .mp-menu ul li > a{
+        padding: 0.7em 1em 0.7em 1em;
+    }
+    nav a{
+        width: 100%;
+    }
+    .phonenumber{
+        width: 100%;
+        font-size: 30px;
+        
+    }
+    .phonenumber .fas{
+        font-size: 21px;
+        padding-right: 5px;
+    }
+    section p{
+        text-align: justify;
+    }
+    #messagesection{
+        width: 100%;
+    }
+    .message{
+        font-size: 4.571vw;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .button{
+        font-size: 4.571vw;
+    }
+    .skills{
+        width: 24.143vw;
+        height: 24.143vw;
+    }
+    
+    footer p, #email{
+        float:none;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    footer{
+        padding-top:10px;
+        padding-bottom: 10px;
+        height: auto;
+    }
+
+}

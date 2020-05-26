@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Foo Tze Ern, Shirlyn</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="pushmenu/css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="pushmenu/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="pushmenu/js/modernizr.custom.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+            <div class="mp-pusher" id="mp-pusher">
+                            <!-- mobile nav -->
+                            
+                            <nav id="mp-menu" class="mp-menu">
+                                    <div class="mp-level">
+                                            <div class="logo">
+                                                <a href="index.html"><h1>SHIRLYN</h1></a>
+                                                </div>
+                                        
+                                        <ul>
+                                            <li>
+                                                <a href="index.html">HOME</a>
+                                            </li>
+                                            <li>
+                                                <a href="skills.html">SKILLS</a>
+                                            </li>
+                                            <li>
+                                                <a href="portfolio.html">PORTFOLIO</a>
+                                            </li>
+                                            <li>
+                                                    <div class="phonenumber largeheader"><p><i class="fas fa-phone-alt"></i>98169865</p></div>                
+                                                </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+    
+                        
+                        <div class="scroller">
+                            <div class="scroller-inner">
+                                    <p class="triggerp"><a href="#" id="trigger" class="menu-trigger"></a></p>
+                                    <header class="header">
+                                            <div class="logo">
+                                                <a href="index.html"><h1>SHIRLYN</h1></a>
+                                            </div>        
+                                            <nav>
+                                                <ul>
+                                                    <a href="index.html"><li>HOME</li></a>
+                                                    <a href="skills.html"><li>SKILLS</li></a>
+                                                    <a href="portfolio.html"><li>PORTFOLIO</li></a>
+                                                </ul>
+                                                
+                                            </nav>
+                                            <div class="phonenumber largeheader"><p><i class="fas fa-phone-alt"></i>98169865</p></div>                
+                                        </header>
+                                        <main>
+                                                <section class="sectionodd">
+                                                        <div class="innersection">
+                                                            <h1>SKILLS</h1>
+                                                            <br>
+                                                            <button class="viewbtn" id="programming-btn">Programming</button>
+                                                            <button class="viewbtn" id="design-btn">Design</button>
+                                                        </div>
+                                                <section>
+                                                <div class="page hidden" id="page-skill">
+                                                        <div id="content">
+                                                                <section class="sectionodd">
+                                                                        <div class="innersection">
+                                                                                <h1>Programming Languages</h1>
+                                                                                <div class="outerskills">
+                                                                                    <div class="skills">
+                                                                                        <p>HTML</p>
+                                                                                    </div>
+                                                                                    <div class="skills">
+                                                                                        <p>CSS</p>
+                                                                                    </div>
+                                                                                    <div class="skills">
+                                                                                        <p>Javascript</p>
+                                                                                    </div>
+                                                                                    <div class="skills">
+                                                                                            <p>SQL</p>
+                                                                                        </div>
+                                                                                        <div class="skills">
+                                                                                            <p>Angular</p>
+                                                                                        </div>
+                                                                                        <div class="skills">
+                                                                                            <p>Python</p>
+                                                                                        </div>
+                                                                                </div>                                                            
+                                                                        </div>
+                                                                    </section>
+                                                        </div>
+                                                      </div>
+                                                <section class="sectioneven">
+                                                    <div class="innersection">
+                                                            <h1>SERVICES</h1>
+                                                            <div class="flex">
+                                                                <img src="images/macgraphic.png" alt="">
+                                                                <div class="right">
+                                                                    <h2>Website Development</h2>
+                                                                    <ul>
+                                                                        <li>Mobile responsive</li>
+                                                                        <li>Transform the website design that you have in mind into a real working website</li>
+                                                                        <li>User experience optimisation (loading speed)</li>
+                                                                        <li>CSS and Javascript animations effects</li>
+                                                                        <li>Cool Javascript plugins functions to keep users engaged and have a unique website</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            
+                                                            
+                                                    </div>
+                                                    
+                                                </section>
+                                            </main>
+                                           
+                                        <footer>
+                                            <p>© 2020. All rights reserved.</p>
+                                            <p id="email">Email: <a href="mailto:shirlynfoo17@gmail.com">shirlynfoo17@gmail.com</a></p>
+                                        </footer>
+                            </div>
+                                
+                        </div>
+                        
+            </div>
+                
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+        <script src="pushmenu/js/classie.js"></script>
+            <script src="pushmenu/js/mlpushmenu.js"></script>
+            <script>
+                new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+
+                let programmingbtn = document.querySelector("#programming-btn");
+                let designbtn = document.querySelector("#design-btn");
+                let pageskill = document.querySelector("#page-skill");
+                let page = document.querySelector(".page");
+
+                function hideallpages(){
+                    pageskill.classList.add("hidden");
+                    pageskill.classList.remove("show");
+                }
+                $(document).ready(function(){
+                    pageskill.classList.add("show");
+                    pageskill.classList.remove("hidden");
+                })
+               
+                programmingbtn.addEventListener('click', async function(){
+                    hideallpages();
+                    let response = await axios.get("skill1.html");
+                    
+                    pageskill.innerHTML = response.data;
+                    pageskill.classList.add("show");
+                    })
+                    designbtn.addEventListener('click', async function(){
+                    hideallpages();
+                    let response = await axios.get("skill2.html");
+                    
+                    pageskill.innerHTML = response.data;
+                    pageskill.classList.add("show");
+                    pageskill.classList.remove("hidden");
+                    
+                    })
+            </script>
+</body>
+</html>
