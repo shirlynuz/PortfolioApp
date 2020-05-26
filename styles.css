@@ -372,12 +372,6 @@ h2{
     .imagepic, .herotext{
         display: block;
     }
-    .hero img{
-        width: 30%;
-    }
-    .herotext h1{
-        font-size: 50px
-    }
     .header{
         display: none;
     }
