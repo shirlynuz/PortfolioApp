@@ -335,6 +335,9 @@ h2{
     }
 }
 @media screen and (max-width: 700px){
+    .hero img{
+        width: 60%;
+    }
     .herotext h1{
         font-size: 6.143vw;
     }
